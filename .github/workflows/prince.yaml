@@ -12,6 +12,7 @@ jobs:
           pwd
           cd
           ls -al
+          sshpass -V
       - name: mystep2-clone the repo
         uses: actions/checkout@v4
 
