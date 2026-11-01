@@ -40,4 +40,4 @@ jobs:
           sshpass -p 'Anil@332211' ssh \
           -o StrictHostKeyChecking=accept-new \
           root@164.68.105.85 \
-          'docker run -dit -p 8080:80 princepanwar21032011/myimmage_nov_1:t1'
+          'docker run -dit -p 8080:80 princepanwar21032011/myimage_nov_1:t1'
