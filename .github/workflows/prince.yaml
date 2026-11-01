@@ -23,3 +23,6 @@ jobs:
 
       - name: mystep5-check the docker image
         run: sudo docker image ls
+
+      - name: mystep6-login to docker hub
+        run: docker/login-action@v3
